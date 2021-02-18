@@ -1,0 +1,92 @@
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+
+.mini-box {
+  max-width: 170px !important;
+  height: 120px;
+  background: #a8c0ff;
+  background: -webkit-linear-gradient(to right, #827c9c, #5e78b9);
+  background: linear-gradient(to right, #6a59b4, #606bcc);
+  margin-left: 20px;
+  border-radius: 20px;
+  box-shadow: 0 9px 7px -5px black;
+}
+.mini-box:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+
+.box {
+  max-width: 250px;
+  background: #a8c0ff;
+  background: -webkit-linear-gradient(to right, #827c9c, #5e78b9);
+  background: linear-gradient(to right, #6a59b4, #606bcc);
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 0 9px 7px -5px black;
+}
+.box:hover {
+  transform: scale(1.03);
+  transition: 0.2s ease-in-out;
+}
+
+.row {
+  margin: auto 10px !important;
+}
+
+.bi-people-fill {
+  color: white;
+  height: 75px;
+  width: 75px;
+}
+
+.icon {
+  height: 75px;
+  width: 75px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.texts {
+  margin-top: 17px;
+  text-align: center;
+}
+.title {
+  display: inline-block !important;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.number {
+  display: inline !important;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.mini-icon {
+  color: white !important;
+  height: 45px;
+  width: 45px;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+.mini-texts {
+  margin-top: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+.mini-title {
+  display: inline-block !important;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-right: 1px;
+}
+.mini-number {
+  display: inline !important;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}

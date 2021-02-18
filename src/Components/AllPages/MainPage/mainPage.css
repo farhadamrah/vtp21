@@ -1,0 +1,211 @@
+body {
+  background-color: #5c5ee0;
+  height: 100vh !important;
+}
+
+.trigger {
+  color: #1c1d3b !important;
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #5c5ee0 !important;
+}
+
+/* .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  border: 1px solid yellow;
+} */
+
+.userLog {
+  float: right;
+  margin-top: 10px !important;
+  margin-right: 25px;
+}
+
+.ant-dropdown-trigger.avatarLink {
+  background: white !important;
+  color: #1c1d3b;
+}
+
+.logoVtp {
+  height: 160px;
+  width: 160px;
+  margin: -40px auto;
+  margin-left: 10px !important;
+  transition: 0.5s;
+}
+.miniLogoVtp {
+  height: 90px;
+  width: 80px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+  transition: 0.4s;
+}
+
+.site-layout-background {
+  background: #fff;
+  margin-bottom: 5px;
+}
+
+.site-layout {
+  background: #dcdfff;
+  padding-bottom: 30px;
+}
+
+.home-page {
+  height: 100%;
+}
+
+.ant-layout-sider {
+  background-color: #313279;
+  /* min-width: 230px !important; */
+}
+
+.menu {
+  background-color: #313279;
+}
+
+.ant-menu-submenu-arrow {
+  color: white;
+}
+
+.ant-menu {
+  color: rgb(185, 185, 185) !important;
+}
+
+.ant-menu-inline {
+  border-right: none;
+}
+
+.ant-menu-sub {
+  background-color: #1c1d3b !important;
+}
+
+.ant-menu-submenu-title:hover {
+  color: #ffffff;
+  border-left: 2px solid white;
+}
+
+.ant-menu-submenu-open {
+  color: white;
+  border-right: 2px solid white;
+}
+.ant-menu-submenu-open .anticon {
+  color: white;
+}
+.ant-menu-submenu-arrow {
+  color: rgb(185, 185, 185);
+}
+.ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after {
+  background-color: white;
+}
+.ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+  background-color: white;
+}
+.ant-menu-submenu-title:active {
+  color: #1c1d3b;
+}
+.ant-menu-submenu-title:active .anticon {
+  color: #1c1d3b !important;
+}
+.ant-menu-submenu-selected {
+  color: white;
+}
+.ant-menu-submenu-selected .anticon {
+  color: white;
+}
+
+.ant-menu-item-only-child:hover {
+  color: #1c1d3b;
+}
+
+.ant-menu-item:hover {
+  color: #ffffff;
+  border-left: 3px solid white;
+}
+.ant-menu-item:hover .anticon {
+  color: #ffffff;
+}
+
+.ant-menu-item:hover .ant-menu-submenu-arrow::after {
+  background-color: #fff;
+}
+.ant-menu-item:hover .ant-menu-submenu-arrow::before {
+  background-color: #fff;
+}
+
+.ant-menu-item-selected:hover {
+  color: #1c1d3b !important;
+  border: none;
+}
+.ant-menu-item-selected::after {
+  border-right: none !important;
+}
+.ant-menu-item-selected .item-link {
+  color: #1c1d3b !important;
+}
+
+.item-link {
+  text-decoration-style: none !important;
+}
+
+.ant-menu-item-selected .anticon {
+  color: #1c1d3b !important;
+}
+.ant-menu-item-selected:hover .item-link {
+  color: #1c1d3b !important;
+}
+
+.ant-menu-submenu:hover .ant-menu-submenu-arrow::after {
+  background-color: white;
+}
+.ant-menu-submenu:hover .ant-menu-submenu-arrow::before {
+  background-color: white;
+}
+.ant-menu-submenu-open .ant-menu-submenu-arrow::after {
+  background-color: white;
+}
+.ant-menu-submenu-open .ant-menu-submenu-arrow::before {
+  background-color: white;
+}
+
+.anticon {
+  color: rgb(145, 145, 145);
+}
+
+li .anticon {
+  margin-left: -10px;
+}
+
+.item-link {
+  color: rgb(145, 145, 145) !important;
+}
+.item-link:hover {
+  color: white !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-submenu-title:hover .anticon {
+  color: #ffffff;
+}
+
+.header-logo-img {
+  width: 400px;
+  height: 70px;
+  margin-top: -110px;
+}
+
+.ant-modal-close-x:focus {
+  border: 1px solid red !important;
+  outline: none !important;
+}

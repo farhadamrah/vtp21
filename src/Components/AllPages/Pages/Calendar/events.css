@@ -1,0 +1,96 @@
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
+
+.fc-media-screen {
+  background-color: rgb(245, 252, 252) !important;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.fc-col-header-cell-cushion,
+.fc-daygrid-day-number,
+.fc-toolbar-title,
+.ant-picker-today-btn {
+  color: rgb(74, 63, 139);
+}
+
+.ant-picker:hover,
+.ant-picker-focused {
+  border-color: darkslateblue !important;
+  outline-color: darkslateblue !important;
+}
+.ant-picker:focus,
+.ant-picker-focused {
+  box-shadow: 1px 1px 1px rgb(58, 52, 102) !important;
+}
+
+.fc-col-header-cell-cushion:hover,
+.fc-daygrid-day-number:hover {
+  color: rgb(162, 155, 221);
+}
+
+.fc-today-button,
+.fc-button,
+.ant-btn,
+.ant-btn:focus {
+  background: rgb(72, 65, 116) !important;
+  /* border-color: rgb(194, 188, 235); */
+  border-color: rgb(150, 143, 194);
+  border-radius: 3px;
+}
+
+.ant-btn:hover {
+  background-color: rgb(94, 84, 153) !important;
+  border-color: white;
+}
+.ant-btn:active {
+  border-color: rgb(108, 101, 160);
+}
+
+.ant-input {
+  border-color: rgb(108, 102, 156);
+  outline: none !important;
+}
+.ant-input:hover {
+  border-color: rgb(164, 155, 231) !important;
+}
+.ant-input:focus {
+  border-color: rgb(75, 66, 146) !important;
+  box-shadow: rgb(75, 66, 146) !important;
+}
+
+.fc-event-title-container {
+  background-color: rgb(77, 65, 155);
+  border-color: rgb(46, 41, 83) !important;
+  outline-color: darkslateblue !important;
+}
+.fc-daygrid-event {
+  border-color: rgb(134, 125, 204);
+}
+
+.fc-day-today {
+  background-color: rgb(191, 185, 228) !important;
+}
+
+/* .fc-daygrid-day, */
+.fc-col-header-cell,
+.fc-view-harness {
+  border: 1px solid rgb(204, 200, 233) !important;
+}
