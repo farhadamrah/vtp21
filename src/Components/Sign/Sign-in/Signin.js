@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './signin.css';
 import header from '../../../assets/logo.png';
+import butaLogo from '../../../assets/butagrup.png';
 
 const Signin = () => {
   return (
@@ -9,7 +10,7 @@ const Signin = () => {
       <div className="main-container">
         <div className="form-header">
           <Link to="/">
-            <img className="form-header-img" src={header} alt="header" />
+            <img className="form-header-img" src={header} alt="logo" />
           </Link>
         </div>
         <div className="form-container">

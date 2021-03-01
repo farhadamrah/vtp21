@@ -89,8 +89,18 @@
   background-color: rgb(191, 185, 228) !important;
 }
 
-/* .fc-daygrid-day, */
 .fc-col-header-cell,
 .fc-view-harness {
   border: 1px solid rgb(204, 200, 233) !important;
+}
+
+.fc-daygrid-event,
+.fc-daygrid-event-dot {
+  background-color: darkslateblue !important;
+  color: white !important;
+  border-color: white;
+  word-spacing: 2px !important;
+}
+.fc-daygrid-event:hover {
+  background-color: rgb(112, 100, 194) !important;
 }

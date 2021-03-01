@@ -80,7 +80,7 @@ body {
 }
 
 .ant-menu {
-  color: rgb(185, 185, 185) !important;
+  color: white !important;
 }
 
 .ant-menu-inline {
@@ -104,7 +104,7 @@ body {
   color: white;
 }
 .ant-menu-submenu-arrow {
-  color: rgb(185, 185, 185);
+  color: white;
 }
 .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after {
   background-color: white;
@@ -180,7 +180,7 @@ body {
 }
 
 .anticon {
-  color: rgb(145, 145, 145);
+  color: rgb(238, 238, 238);
 }
 
 li .anticon {
@@ -188,7 +188,7 @@ li .anticon {
 }
 
 .item-link {
-  color: rgb(145, 145, 145) !important;
+  color: white !important;
 }
 .item-link:hover {
   color: white !important;
@@ -204,8 +204,13 @@ li .anticon {
   height: 70px;
   margin-top: -110px;
 }
-
-.ant-modal-close-x:focus {
-  border: 1px solid red !important;
+.ant-modal-close-icon {
+  color: darkslateblue;
+}
+.ant-modal-close:focus {
   outline: none !important;
+}
+
+.anticon-down {
+  color: #5a5b7e;
 }

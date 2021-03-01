@@ -11,8 +11,8 @@ body {
 }
 
 .form-header-img {
-  width: 370px;
-  height: 90px;
+  width: 290px;
+  block-size: 90px;
 }
 
 .form-container {
